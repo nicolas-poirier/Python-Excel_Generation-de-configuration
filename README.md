@@ -1,3 +1,5 @@
 # Python-Excel_Generation-de-configuration
 
-Script Python permettant de générer des fichiers de configuration à partir d'un fichier Excel en se basant sur des templates.
+Génération de fichiers de configuration via Python / Excel / Templates txt.
+
+Voir https://nicolas-poirier.fr/2020/03/22/python-excel-generation-de-fichiers-de-configuration/
