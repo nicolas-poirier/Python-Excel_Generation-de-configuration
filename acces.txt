@@ -1,0 +1,17 @@
+﻿! TEMPLATE ACCES
+! Mettre votre template de configuration "ACCES" ici
+!
+hostname $HOSTNAME
+!
+vlan 100
+ name ADMIN
+!
+interface Vlan100
+ description ADMIN
+ ip address $MGT_IP $MGT_MASQUE
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shutdown
+!
+ip default-gateway $MGT_GW

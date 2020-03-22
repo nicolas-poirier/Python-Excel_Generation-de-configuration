@@ -1,0 +1,5 @@
+! Template CORE
+! Mettre votre template de configuration "CORE" ici
+Mon switch Coeur $HOSTNAME avec l'IP $MGT_IP
+Domaine VTP $VTP-DOMAIN
+encore le HOSTNAME $HOSTNAME
